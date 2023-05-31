@@ -4,217 +4,254 @@
 	<!-- Required meta tags -->
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<!-- title -->
-	<title>artistica</title>
+	<!-- Title Here -->
+	<Title Here>Electron Solutions</Title Here>
 	<!-- favicon -->
-	<link rel='icon' href='assets/images/favicon.ico' type='image/x-icon'/>
-	<!-- google fonts -->
-	<link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,800,900|Playfair+Display:400,500,700,700i,900&display=swap" rel="stylesheet">
+	<link rel='icon' href='assets/images/fevicon.jpg' type='image/x-icon'/>
 
+	
+     <!-- icon css link -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 	<!-- Bootstrap CSS -->
 	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
 	<!-- main CSS -->
 	<link rel="stylesheet" href="assets/css/style.css">
-	<style>
-		.grid-item {
-			float: left;
-			width: 25%;
-			height: auto;
-			position: relative;
-			overflow: hidden;
-		}
-
-		.grid-item img {
-			transition: transform 0.3s ease;
-		}
-
-		.grid-item:hover img {
-			transform: scale(1.1);
-		}
-
-		.grid-sizer {
-			width: 25%;
-		}
-
-		.grid-item--width2 {
-			width: 50%;
-		}
-
-		.grid-item:hover .overlay {
-			opacity: 1;
-		}
-
-		.overlay {
-			position: absolute;
-			top: 0;
-			left: 0;
-			width: 100%;
-			height: 100%;
-			background: rgba(34, 34, 34, 0.8);
-			color: #fff;
-			display: flex;
-			flex-direction: column;
-			align-items: center;
-			justify-content: center;
-			opacity: 0;
-			transition: opacity 0.3s ease;
-		}
-
-		.overlay h3, .overlay p{
-			transition: opacity 0.4s ease, transform 0.5s ease;
-		}
-
-		.overlay h3 {
-			font-size: 20px;
-			font-weight: 600;
-			margin-bottom: 10px;
-			opacity: 0;
-			transform: translateY(20px);
-			
-		}
-		.overlay p {
-			font-size: 14px;
-			line-height: 1.5;
-			text-align: center;
-			max-width: 80%;
-			margin-bottom: 0;
-			opacity: 0;
-			transform: translateY(20px);
-			
-		}
-
-		.grid-item:hover .overlay h3,
-		.grid-item:hover .overlay p {
-			opacity: 1;
-			transform: translateY(0);
-		}
-
-		@media (max-width: 768px) {
-			.grid-item {
-				width: 50%;
-			}
-			.overlay h3, .overlay p{
-			transition: opacity 0.4s ease, transform 0.2s ease;
-		}
-			.grid-item--width2 {
-				width: 100%;
-			}
-		}
-	</style>
-	</style>
+	
+	
 </head>
 <body>
-	<div class="mymosonary">
+
+ 
+	 <!-------------------------------------------------------------------------------------- header section -->
+
+     <!-- header start -->
+     <header class="header shadow-sm pt-3">
+		<div class="container-fluid">
+		   <div class="header-main">
+			 <!---------------------------------- Here is the logo path -->
+				 <div class="logo pb-2">
+					<a href="index.html"><img src="assets/images/logo.png" alt=""></a>
+				  </div>
+			  <div class="open-nav-menu">
+				 <span></span>
+			  </div>
+			  <!----------------------------------- navigation menu start -->
+			  <nav class="nav-menu">
+				<div class="close-nav-menu">
+				   <img src="assets/images/close.svg" alt="close">
+				</div>
+				<ul class="menu">
+				   <li class="menu-item menu-item-has-children">
+					  <a href="">Home</a>
+				   </li>
+				   <li class="menu-item">
+					  <a href="">Services</a>
+				   </li>
+				   <li class="menu-item">
+					  <a href="">About</a>
+				   </li>
+				   <li class="menu-item">
+					  <a href="about">Portfolio</a>
+				   </li>
+				   <li class="menu-item">
+					  <a href="#testimonials">Contact</a>
+				   </li>
+  
+				   <li class="menu-item">
+					  <a href="#contact">Blog</a>
+				   </li>
+	
+				</ul>
+			  </nav>
+			  <!-- navigation menu end -->
+		   </div>
+		</div>
+	 </header>
+	 <!-- header end -->
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+<!----------------------------------------------------------- start images_gallery section -->
+
+	<div class="images_gallery">
 		<div class="grid">
 			<div class="grid-sizer"></div>
 			<div class="grid-item">
 				<img class="img-fluid" src="assets/images/msn-work-1.jpg" alt="">
 			<div class="overlay">
-				<h3>Title 2</h3>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+					<a href="" class="overlay-link">
+						<h3>Title Here</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+					</a>
 			</div>
 			</div>
 			<div class="grid-item">
 				<img class="img-fluid" src="assets/images/msn-work-2.jpg" alt="">
 				<div class="overlay">
-					<h3>Title 2</h3>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+					<a href="" class="overlay-link">
+						<h3>Title Here</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+					</a>
 				</div>
 			</div>
 			<div class="grid-item grid-item--width2">
 				<img class="img-fluid" src="assets/images/msn-work-3.jpg" alt="">
 				<div class="overlay">
-					<h3>Title 2</h3>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+					<a href="" class="overlay-link">
+						<h3>Title Here</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+					</a>
 				</div>
 			</div>
 			<div class="grid-item">
 				<img class="img-fluid" src="assets/images/msn-work-4.jpg" alt="">
 				<div class="overlay">
-					<h3>Title 2</h3>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+					<a href="" class="overlay-link">
+						<h3>Title Here</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+					</a>
 				</div>
 			</div>
 			<div class="grid-item">
 				<img class="img-fluid" src="assets/images/msn-work-5.jpg" alt="">
 				<div class="overlay">
-					<h3>Title 2</h3>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+					<a href="" class="overlay-link">
+						<h3>Title Here</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+					</a>
 				</div>
 			</div>
 			<div class="grid-item ">
 				<img class="img-fluid" src="assets/images/msn-work-8.jpg" alt="">
 				<div class="overlay">
-					<h3>Title 2</h3>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+					<a href="" class="overlay-link">
+						<h3>Title Here</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+					</a>
 				</div>
 			</div>
 			<div class="grid-item grid-item--width2">
 				<img class="img-fluid" src="assets/images/msn-work-6.jpg" alt="">
 				<div class="overlay">
-					<h3>Title 2</h3>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+					<a href="" class="overlay-link">
+						<h3>Title Here</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+					</a>
 				</div>
 			</div>
 			<div class="grid-item ">
 				<img class="img-fluid" src="assets/images/msn-work-7.jpg" alt="">
 				<div class="overlay">
-					<h3>Title 2</h3>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+					<a href="" class="overlay-link">
+						<h3>Title Here</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+					</a>
 				</div>
 			</div>
 			<div class="grid-item grid-item--width2">
 				<img class="img-fluid" src="assets/images/msn-work-9.jpg" alt="">
 				<div class="overlay">
-					<h3>Title 2</h3>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+					<a href="" class="overlay-link">
+						<h3>Title Here</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+					</a>
 				</div>
 			</div>
 			<div class="grid-item">
 				<img class="img-fluid" src="assets/images/msn-work-10.jpg" alt="">
 				<div class="overlay">
-					<h3>Title 2</h3>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+					<a href="" class="overlay-link">
+						<h3>Title Here</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+					</a>
 				</div>
 			</div>
 			<div class="grid-item">
 				<img class="img-fluid" src="assets/images/msn-work-11.jpg" alt="">
 				<div class="overlay">
-					<h3>Title 2</h3>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+					<a href="" class="overlay-link">
+						<h3>Title Here</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+					</a>
 				</div>
 			</div>
 			<div class="grid-item">
 				<img class="img-fluid" src="assets/images/msn-work-12.jpg" alt="">
 				<div class="overlay">
-					<h3>Title 2</h3>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+					<a href="" class="overlay-link">
+						<h3>Title Here</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+					</a>
 				</div>
 			</div>
 			<div class="grid-item">
 				<img class="img-fluid" src="assets/images/msn-work-13.jpg" alt="">
 				<div class="overlay">
-					<h3>Title 2</h3>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+					<a href="" class="overlay-link">
+						<h3>Title Here</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+					</a>
 				</div>
 			</div>
 			<div class="grid-item">
 				<img class="img-fluid" src="assets/images/msn-work-14.jpg" alt="">
 				<div class="overlay">
-					<h3>Title 2</h3>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+					<a href="" class="overlay-link">
+						<h3>Title Here</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+					</a>
 				</div>
 			</div>
 			<div class="grid-item">
 				<img class="img-fluid" src="assets/images/msn-work-15.jpg" alt="">
 				<div class="overlay">
-					<h3>Title 2</h3>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+					<a href="" class="overlay-link">
+						<h3>Title Here</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+					</a>
 				</div>
 			</div>
 		</div>
 	</div>
-	
+<!----------------------------------------------------------- end images_gallery section -->
+
+
+
+
+<section>
+	<footer>
+		<div class="container-fluid">
+          <div class="row">
+			<div class="col-md-6">
+				<div class="copyright">
+					<p>©2014 Electron Solutions. All rights reserved.</p>
+				</div>
+			</div>
+			<div class="col-md-6">
+				<div class="social_icons">
+					<i class="fa-brands fa-facebook-f"></i>
+					<i class="fa-brands fa-twitter"></i>
+					<i class="fa-brands fa-dribbble"></i>
+					<i class="fa-brands fa-linkedin-in"></i>
+					<i class="fa-regular fa-envelope"></i>
+				</div>
+			</div>
+		  </div>
+		</div>
+	</footer>
+</section>
+
+
 
 	<!-- Optional JavaScript -->
 	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
@@ -244,7 +281,7 @@
 
 
 
-
+     <script src="assets/js/nav.js"></script>
 	<script src="assets/js/custom.js"></script>
 </body>
 </html>
